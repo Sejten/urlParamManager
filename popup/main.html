@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="main.css"/>
+   </head>
+   <body>
+      <div id="popup_content">
+         <div>
+            <div class="header">
+               Base Url:
+            </div>
+            <div class="header_container" id="base_url_container">
+               <input type="text" id="base_url" list="url_history" value="Url" style="width:100%">
+            </div>
+         </div>
+         <img id="sort_icon" src="sort.png" height="16" width="16" class="imgSortIcon">
+         <div class="button set_url">Set Url</div>
+         <div id="param_table_container">
+         </div>
+         <p>Drag to change the order of parameters.</p>
+         <div id="error-content" class="hidden">
+            <p>Error.</p>
+         </div>
+      </div>
+      <script src="main.js"></script>
+   </body>
+</html>
+

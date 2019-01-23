@@ -1,0 +1,32 @@
+{
+
+  "description": "View and edit GET parameters of the current page.",
+  "manifest_version": 2,
+  "name": "UrlParamManager",
+  "version": "1.0.4",
+  "applications": {
+    "gecko": {
+      "id": "{e4ec99dc-1652-4a7c-8a26-b912fe578996}",
+      "strict_min_version": "42.0"
+    }
+  },
+  "icons": {
+    "48": "icons/urlman-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/urlman-32.png",
+    "theme_icons": [{
+        "light": "icons/urlman-32-light.png",
+        "dark": "icons/urlman-32.png",
+        "size": 32
+    }],
+    "default_title": "UrlParamManager",
+    "default_popup": "popup/main.html"
+  }
+}
