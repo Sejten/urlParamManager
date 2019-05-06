@@ -3,11 +3,11 @@
   "description": "View and edit GET parameters of the current page.",
   "manifest_version": 2,
   "name": "UrlParamManager",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "applications": {
     "gecko": {
       "id": "{e4ec99dc-1652-4a7c-8a26-b912fe578996}",
-      "strict_min_version": "42.0"
+      "strict_min_version": "48.0"
     }
   },
   "icons": {

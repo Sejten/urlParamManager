@@ -202,7 +202,9 @@ function get_url(shouldBeSorted) {
 		table.appendChild(create_header(table));
 		// if there are parameters
 		if (address.split("?").length > 1) {
-			var address_split = address.split("?")[1].split("&");
+			var address_split = address.split("?")
+			address_split.shift();
+			address_split = address_split.join().split("&");
 			// hack
 			if (address_split.length > 20) {
 				table.style.marginRight = "10px";
